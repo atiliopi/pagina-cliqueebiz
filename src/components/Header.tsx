@@ -17,7 +17,7 @@ const Header = () => {
           {/* Login Button */}
           <Button
             variant="outline"
-            className="text-white hover:text-black hover:bg-white transition-colors"
+            className="text-black bg-white hover:bg-black hover:text-white transition-colors"
             onClick={() => window.location.href = 'https://cliquee.biz/login'}
           >
             Login
